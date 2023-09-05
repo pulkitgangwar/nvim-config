@@ -2,15 +2,15 @@ I have been using vim motions with vscode for about a year now. Recently I switc
 
 This is what Neovim looks like without configuration.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1673863492212/5d0f727c-d2b2-4bd1-9d52-bb6f9c026bf7.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1673863492212/5d0f727c-d2b2-4bd1-9d52-bb6f9c026bf7.png)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039874616/3a923c2f-9574-4010-85b7-7d71dfeb7728.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039874616/3a923c2f-9574-4010-85b7-7d71dfeb7728.gif)
 
 We will convert it to this.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1673863533545/246048ac-1a34-44aa-a480-91565749a89a.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1673863533545/246048ac-1a34-44aa-a480-91565749a89a.png)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039896133/d6931d07-364d-402a-b029-9c07bafaa649.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039896133/d6931d07-364d-402a-b029-9c07bafaa649.gif)
 
 > Configuration is available on my GitHub repository. ([Link](https://github.com/pulkitgangwar/nvim-config))
 
@@ -98,7 +98,7 @@ require("pulkitgangwar.core.options")
 require("pulkitgangwar.core.remap")
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039654478/f53dc53f-111e-4ad9-b142-8da90242a811.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039654478/f53dc53f-111e-4ad9-b142-8da90242a811.gif  )
 
 The first configuration we will do is for the plugin manager. We will use packer as our plugin manager.
 
@@ -205,7 +205,7 @@ require("pulkitgangwar.core.remap")
 require("pulkitgangwar.plugins.nvim-tree")
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039687685/364b88b4-2805-4c3f-ab82-1f3c07b4f876.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039687685/364b88b4-2805-4c3f-ab82-1f3c07b4f876.gif  )
 
 `/lua/pulkitgangwar/core/colorscheme.lua`
 
@@ -224,7 +224,7 @@ require("pulkitgangwar.core.colorscheme")
 require("pulkitgangwar.plugins.nvim-tree")
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039716422/b211dd8d-fa04-4730-a218-49742d11554e.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039716422/b211dd8d-fa04-4730-a218-49742d11554e.gif  )
 
 `/lua/pulkitgangwar/plugins/telescope`
 
@@ -246,7 +246,7 @@ require("pulkitgangwar.plugins.nvim-tree")
 require("pulkitgangwar.plugins.telescope")
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039747838/9253ad21-63d8-44ab-ae38-b41c01a93a82.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039747838/9253ad21-63d8-44ab-ae38-b41c01a93a82.gif  )
 
 `/lua/pulkitgangwar/plugins/nvim-treesitter.lua`
 
@@ -304,7 +304,7 @@ vim.keymap.set("n","<S-h>",vim.cmd.bprev)
 require("nvim-autopairs").setup()
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039776312/47af102c-3ef1-4b1d-974c-ec4c03100c36.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039776312/47af102c-3ef1-4b1d-974c-ec4c03100c36.gif  )
 
 `~/.config/nvim/init.lua`
 
@@ -341,7 +341,7 @@ require("pulkitgangwar.plugins.nvim-autopairs")
 require("pulkitgangwar.plugins.lualine")
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039806859/38f61a3f-0d7b-4c06-9886-01e02f9454eb.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039806859/38f61a3f-0d7b-4c06-9886-01e02f9454eb.gif  )
 
 Now we will work on LSP and suggestions. It was very difficult for me to set up LSP so I used a great plugin that abstracts most things. The name of the plugin is `lsp-zero` .
 
@@ -506,7 +506,7 @@ require("pulkitgangwar.plugins.lualine")
 require("pulkitgangwar.plugins.lsp")
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039824482/3071aa46-01c8-4973-9665-e203d55a3bca.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674039824482/3071aa46-01c8-4973-9665-e203d55a3bca.gif  )
 
 > You can read more about every plugin from their repositories.
 > 
